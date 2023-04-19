@@ -1,0 +1,246 @@
+
+body{
+  margin:0;
+  padding: :0;
+  box-sizing: border-box;
+
+}
+
+img{
+  max-width: 100%;
+}
+
+h1,h2{margin-bottom: 20px;}
+
+.topbar{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  z-index: 3;
+  background-color: white;
+  padding-right: 20px;
+}
+
+
+
+.navbar {
+position: relative;
+bottom: 20px;
+background-color: none;
+padding-right: 20px;
+}
+
+.navbar li a{
+  padding-left: 20px;
+}
+
+.navbar li:hover{
+  border-bottom: 1px solid orange;
+}
+
+.logo{
+margin-left: 20px;
+}
+
+.navbar-nav li{
+  border-right: 1px solid #f1f1f1;
+
+
+}
+
+
+.topbar li{
+margin: 7px;
+list-style-type: none;
+
+}
+
+.topbar li a{
+  text-decoration: none;
+  color: orange;
+  font-size: 15px;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border:none;
+  border-radius: none;
+}
+
+.dropdown-menu a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  border-bottom: 1px solid #f1f1f1;
+}
+
+.nav-item:hover .dropdown-menu{
+  display: block;
+}
+
+ button{
+  background-color: #da5800;
+  padding: 12px 16px;
+  border-radius: 10px;
+  border: none;
+}
+
+button a{
+  text-decoration: none;
+  color: white;
+}
+
+button a:hover{
+  color: white;
+}
+
+
+/* .content{
+  margin: 50px;
+}
+
+.content h1,h2{
+  text-align: center;
+}
+
+.content h2{
+  font-size: 20px;
+}
+
+.content p{
+  text-align: justify;
+} */
+
+
+
+
+.contente {
+background-color: #EFF8F6;
+
+}
+
+.content{
+  padding: 50px;
+  background-image: url("code pics/cyberrr.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+.content h1{
+  text-align: center;
+  color: white;
+
+}
+
+.content h2{
+  font-size: 20px;
+}
+
+.content p{
+  color: white;
+  text-align: justify;
+}
+
+.c-item{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 50px;
+
+}
+
+
+.c-one{
+  display: flex;
+  flex-direction: column;
+width: 500px;
+margin: 30px;
+}
+
+.c-one p{
+  text-align: justify;
+}
+
+/* the new footer concept begins here */
+
+
+.footimgages{
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px) {
+  .footimgages .faith-list .faith-liste{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.footimgages a{
+  margin: 10px;
+}
+
+.faith{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #333;
+  justify-content:center;
+  height: 150px;
+  align-items: center;
+}
+
+.faith-list{
+  display: flex;
+  border-right: 1px solid white;
+  padding: 10px;
+}
+
+.faith-list a{
+  color: white;
+  text-decoration: none;
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 998px) {
+  .faith-list{
+    display: none;
+  }
+}
+
+@media screen and (max-width:998px) {
+  .faith-list p{
+    display: none;
+  }
+}
+
+.faith-list p{
+  color: white;
+}
+
+.faith-liste{
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+@media screen and (max-width: 600px) {
+  .faith-liste{
+    display:flex;
+
+  }
+}
+
+.faith-liste a{
+  padding-left: 30px;
+  color: white;
+  font-size: 20px;
+}
